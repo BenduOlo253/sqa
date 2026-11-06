@@ -55,7 +55,7 @@ jobs:
           args: >
             # Unique keys of your project and organization. You can find them in SonarCloud > Information (bottom-left menu)
             # mandatory
-            -Dsonar.organization=benduolo253
+            -Dsonar.organization=BenduOlo253
             -Dsonar.projectKey=BenduOlo253_sqa
             -Dsonar.java.binaries=target/classes
             -Dsonar.coverage.jacoco.xmlReportPaths=target/site/jacoco/jacoco.xml
